@@ -1,0 +1,30 @@
+/* Button.css */
+
+.border-button0 {
+   width: 100%;
+   height: 90px;
+   border: 3px solid #ffffff;
+   /*Youcanchangethebordercolorasneeded*/background-color: #000000;
+   /*Setthebackgroundcolorifneeded*/color: #ffffff;
+   /*Setthetextcolorifneeded*/font-size: 25px;
+   /*Setthefontsizeifneeded*/cursor: pointer;
+   outline: none;
+   border-radius:20px ;
+   -webkit-border-radius:20px ;
+   -moz-border-radius:20px ;
+   -ms-border-radius:20px ;
+   -o-border-radius:20px ;
+}
+  .botspace{
+    margin-bottom: 150px;
+  }
+  .border-button0:hover{
+    background-color: white;
+    color: #000;
+  }
+  #bottitle{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 65px;
+    margin-bottom: 50px;
+  }

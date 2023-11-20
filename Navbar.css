@@ -1,0 +1,121 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    z-index: 1000; /* Set a high z-index to keep it above other content */
+  }
+  
+  .flex-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 300px;
+    height: auto;
+    margin-left: -30px;
+  }
+  
+  .menu-container {
+    cursor: pointer;
+  }
+  
+  
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+    /*Ensureit'sabovethenavbar*/width: 300px;
+    overflow-y: auto;
+    border: 3px solid #ffffff;
+    /*Addabordertothesubmenu*/border-radius: 8px;
+    /*Roundedcorners*/animation: fadeIn 0.3s ease-in-out;
+     
+}
+  .logo2{
+    width: 300px;
+    height: auto;
+  }
+  .submenu:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Hover effect */
+  }
+  
+  .submenu div {
+    padding: 8px;
+    border-bottom: 1.8px solid #c1a6a6; /* Border between submenu items */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .submenu div:last-child {
+    border-bottom: none; /* Remove border on the last item */
+  }
+  
+  .submenu div:hover {
+    background-color: #191818;
+    color: #ffffff; /* Hover effect on submenu item */
+    cursor: pointer;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .center-flex {
+    flex: 1;
+    text-align: center;
+    display: flex;
+   
+  }
+  
+  .text-menu {
+    margin:20px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .search,
+  .login {
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .border-button {
+    display: flex;
+    align-items: center;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 150px;
+  }
+  #erroo{
+    margin-left: 10px;
+  }
+  .border-button span {
+    margin-left: 8px;
+  }
+  
+  .border-button:hover {
+    background-color: #000000;
+    color: whitesmoke;
+  }

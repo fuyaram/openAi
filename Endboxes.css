@@ -1,0 +1,99 @@
+.box1{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:10px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+
+.box2{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:10px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box3{
+    margin-top:30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:10px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box4{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:15px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box5{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:20px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box6{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:25px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box7{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:30px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box8{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:35px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box9{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:40px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box10{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:50px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
+.box11{
+    margin-top: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height:80px;
+   background-color: azure;
+    border: 4px solid rgb(255, 255, 255);
+   box-sizing: border-box;
+}
